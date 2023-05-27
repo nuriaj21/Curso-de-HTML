@@ -1,0 +1,37 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>Ejemplo 6 - Imágenes </TITLE>
+
+</HEAD>
+
+<BODY BACKGROUND="nubes.jpg" TEXT="#AA0000">
+
+<CENTER>
+
+<H1>Imágenes</H1>
+
+<HR>
+
+<P>Esta es mi página del Web. No es muy extensa, pero tiene todos los elementos básicos. Espero que os guste. Poco a poco le iré añadiendo más cosas interesantes</P>
+
+<P><A HREF="ejemplo2.html"><IMG SRC="hombre.gif"></A> <FONT SIZE=+3>Mis aficiones</FONT></P>
+
+<P><A HREF="ejemplo4.html"> <IMG SRC="casa.gif"> </A> <FONT SIZE=+3>Mis páginas favoritas</FONT></P>
+
+<H3>Un lugar ideal para mis vacaciones</H3>
+
+<IMG SRC="isla.gif" ALT="isla">
+
+<HR>
+
+<H3>Expediente X - Mulder</H3>
+
+<IMG SRC="3mulder.gif" WIDTH=119 HEIGHT=160></CENTER>
+
+</CENTER>
+
+</BODY>
+
+</HTML>

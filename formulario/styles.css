@@ -1,0 +1,39 @@
+header {
+    background-color:#CCCC99;
+      text-align:center;
+      padding:50px 0;
+      font-size:1.2em;
+    }
+    
+    #survey-form {
+      width:75%;
+      margin:0 auto;
+      text-align:center;
+      background-color:#CE7C30; 
+      border: 3px;  
+      padding: 50px 0 ;
+    }
+    h4 {
+      background-color: #AF9F30;
+      color: dark;
+      padding:15px;
+    }
+    body {
+      background-image: url("https://www.w3schools.com/css/mountain.jpg");
+    }
+    #name , #email ,#number   {
+      padding: 30 150;
+      margin:7px
+    }
+    #checkbox {
+        text-align: center;
+        padding: 5px 5px; 
+        margin: 7px;
+    }
+  
+
+    #dropdown  {
+        text-align: center;
+        padding: 5px ; 
+        margin: 7px;
+    }

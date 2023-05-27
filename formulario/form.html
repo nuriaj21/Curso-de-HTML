@@ -1,0 +1,80 @@
+<!DOCTYPE  html>
+<html>
+  <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport"  content=" width=device-width,  initial-escale=1.0">
+    <meta name="surveyForm" content="Form Contact & level">
+    <meta name="autor"  content="Nuria Justo">
+ </head>
+   <nav> 
+     <link rel="stylesheet" href="styles.css"><link>
+   </nav>
+ <header>
+    <h1 id="title">Habitos de consumo, encuesta</h1>
+    <p id="description">Háblame de tus hábitos y te diré que tal duermes.</p>
+ </header>  
+
+ <body>
+
+<!--Datos del encuestado, formulario de campos de texto-->
+
+   <form id="survey-form" name="survey-form">
+    <h3>Datos de contacto</h3>
+       <label id="name-label"for="name">Name:<br>
+        <input id="name" name="name" type="text" placeholder="Enter your Name"required>
+       </label>
+         <br>
+       <label id="email-label" for="email">Email:<br>
+        <input id="email"  type="email" placeholder="Enter your email"required>
+       </label>
+        <br>
+       <label id="number-label" for="number">Age:<br>
+        <input id="number" type="number" name="age" min="18" max="99" placeholder="Age"required>
+      </label>
+      <br>
+<!--Bebida consumida, verificación--> 
+
+    <h3> ¿Qué bebida consumes más, en tu día a día?</h3>
+       <label id="checkbox" for="checkbox"> Puedes elegir más de una opción:<br>
+           <input type="checkbox" id="checkbox" value="agua"> Agua
+           <input type="checkbox" id="checkbox" value="zumos"> Zumos
+           <input type="checkbox" id="checkbox" value="refrescos"> Refrescos
+           <input type="checkbox" id="checkbox" value="cerveza"> Cerveza
+           <input type="checkbox" id="checkbox" value="vino"> Vino
+           <input type="checkbox" id="checkbox" value="infusiones"> Infusiones
+           <input type="checkbox" id="checkbox" value="energeticas"> Energéticas
+           <input type="checkbox" id="checkbox" value="otras"> Otras
+        </label>
+
+ <!--selecciona un valor, selección-->
+
+      <h3>En base a tu anterior respuesta, indica que cantidad total de liquido ingieres:</h3>
+      <label for="dropdown">Elige una opción</label><br>
+       <select id="dropdown" name="select">
+           <option value="0-2" selected>De 0-2 vasos</option>
+           <option value="2-4">De 2-4 vasos</option>
+           <option value="4-6">De 4-6 vasos</option>
+           <option value="6-8">De 6-8 vasos</option>
+           <option value="<8">más de 8 vasos</option>
+       </select>
+  
+<!--Elige el tiempo de ejercicio, radio-->
+      
+    <h3>¿Cuánto tiempo, al día, le dedicas al ejercicio?</h3>
+      <label id="radio" for="radio"> Haz la media semanal<br>
+       <input name="radio" id="radio" value="0-30" type="radio">0-30 min.
+       <input name="radio" id="radio" value="30-90" type="radio">30-90 min.
+       <input name="radio" id="radio" value="90-120" type="radio">90-120 min
+       <input name="radio" id="radio" value="<120" type="radio">más de 120 min.
+      </label>
+      <BR>
+<!--comentarios cliente,textarea-->
+
+   <h3>A tener en cuenta y que quieras contarnos:<h3>
+     <textarea name="message" rows="10" cols="50">Pautas de medicación, horarios poco habituales...</textarea>
+     <br>
+     <button type="submit" id="submit" > Clica aquí para enviar tus respuestas</button>
+  </form>
+ </body>
+
+</html>

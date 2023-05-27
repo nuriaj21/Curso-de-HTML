@@ -1,0 +1,11 @@
+html {
+    background-image: url("img/fons1.jpg");
+    background-size: cover;
+}
+h2 {
+    font-size: 30px ; color:rgb(9, 45, 85);
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+    
